@@ -1,5 +1,4 @@
-from fastapi import FastAPI, UploadFile, File
-from openai import OpenAI
+from fastapi import FastAPI, UploadFile, Fil
 import shutil
 import os
 
@@ -44,3 +43,4 @@ async def voice_agent(file: UploadFile = File(...)):
         "ai_reply": reply
 
     }
+
