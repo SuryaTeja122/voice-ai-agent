@@ -5,7 +5,7 @@ import os
 
 app = FastAPI()
 
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+
 
 
 @app.get("/")
@@ -42,4 +42,5 @@ async def voice_agent(file: UploadFile = File(...)):
     return {
         "user_said": user_text,
         "ai_reply": reply
+
     }
