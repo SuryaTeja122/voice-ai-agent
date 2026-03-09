@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+openai
+redis
+langdetect
+openai-whisper
+gtts
+sqlalchemy
+pydantic
+psycopg2-binary
